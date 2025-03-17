@@ -41,6 +41,22 @@ CN 版本基于[资源圆体](https://github.com/CyanoHao/Resource-Han-Rounded)�
 
 您可以从 [Releases](https://github.com/subframe7536/maple-font/releases) 下载所有字体压缩包。
 
+### Scoop (Windows)
+```sh
+# 添加 bucket
+scoop bucket add nerd-fonts
+# Maple Mono (ttf 格式)
+scoop install Maple-Mono
+# Maple Mono (hinted ttf 格式)
+scoop install Maple-Mono-autohint
+# Maple Mono (otf 格式)
+scoop install Maple-Mono-otf
+# Maple Mono NF
+scoop install Maple-Mono-NF
+# Maple Mono NF CN
+scoop install Maple-Mono-NF-CN
+```
+
 ### Homebrew (MacOS, Linux)
 
 ```sh
@@ -54,7 +70,7 @@ brew install --cask font-maple-mono-cn
 brew install --cask font-maple-mono-nf-cn
 ```
 
-### Arch Linux
+### AUR (Arch Linux)
 
 ```shell
 # Maple Mono
@@ -65,12 +81,24 @@ paru -S ttf-maple-beta-nf
 paru -S ttf-maple-beta-nf-cn
 ```
 
-## 特性配置
+## CDN
 
-请参阅 [文档](./source/features/README_CN.md)。
+### Maple Mono
+
+- [fontsource](https://fontsource.org/fonts/maple-mono)
+- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/443/)
+
+### Maple Mono CN
+
+- [The Chinese Web Fonts Plan (中文网字计划)](https://chinese-font.netlify.app/zh-cn/fonts/maple-mono-cn/MapleMono-CN-Regular)
+- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/442/)
+
+## 使用方法 & 特性配置
+
+请参阅 [文档](./source/features/README_CN.md) 或者在 [这里](https://font.subf.dev/zh-cn/playground) 尝试。
 
 > [!note]
-> 用于可视化配置和自定义构建的 Web 工具正在开发中。
+> 用于自定义构建的 Web 工具仍在开发中。
 
 ## 命名说明
 
@@ -100,17 +128,6 @@ paru -S ttf-maple-beta-nf-cn
 - 为什么存在 `-AutoHint` 和 `-unhinted` 后缀？
   - 为了向后兼容，我保留了原始命名方案。`-AutoHint` 仅用于 `TTF` 格式。
 
-## CDN
-
-### Maple Mono
-
-- [fontsource](https://fontsource.org/fonts/maple-mono)
-- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/443/)
-
-### Maple Mono CN
-
-- [The Chinese Web Fonts Plan (中文网字计划)](https://chinese-font.netlify.app/zh-cn/fonts/maple-mono-cn/MapleMono-CN-Regular)
-- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/442/)
 
 ## 自定义构建
 
@@ -250,6 +267,10 @@ Build Options:
 - [Font Viewer](https://tophix.com/font-tools/font-viewer)
 - [Monolisa](https://www.monolisa.dev/)
 - [Recursive](https://www.recursive.design/)
+
+## 赞助
+
+如果这个字体对您有所帮助，可以通过 [爱发电](https://afdian.com/a/subframe7536) 赞助我
 
 ## 许可
 

@@ -41,6 +41,23 @@ CN version based on [Resource Han Rounded](https://github.com/CyanoHao/Resource-
 
 You can download all the font archives from [Releases](https://github.com/subframe7536/maple-font/releases).
 
+### Scoop (Windows)
+
+```sh
+# Add bucket
+scoop bucket add nerd-fonts
+# Maple Mono (ttf format)
+scoop install Maple-Mono
+# Maple Mono (hinted ttf format)
+scoop install Maple-Mono-autohint
+# Maple Mono (otf format)
+scoop install Maple-Mono-otf
+# Maple Mono NF
+scoop install Maple-Mono-NF
+# Maple Mono NF CN
+scoop install Maple-Mono-NF-CN
+```
+
 ### Homebrew (MacOS, Linux)
 
 ```sh
@@ -54,7 +71,7 @@ brew install --cask font-maple-mono-cn
 brew install --cask font-maple-mono-nf-cn
 ```
 
-### Arch Linux
+### AUR (Arch Linux)
 
 ```shell
 # Maple Mono
@@ -65,12 +82,24 @@ paru -S ttf-maple-beta-nf
 paru -S ttf-maple-beta-nf-cn
 ```
 
-## Feature Configurations
+## CDN
 
-See in [document](./source/features/README.md)
+### Maple Mono
+
+- [fontsource](https://fontsource.org/fonts/maple-mono)
+- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/443/)
+
+### Maple Mono CN
+
+- [The Chinese Web Fonts Plan (中文网字计划)](https://chinese-font.netlify.app/zh-cn/fonts/maple-mono-cn/MapleMono-CN-Regular)
+- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/442/)
+
+## Usage & Feature Configurations
+
+See in [document](./source/features/README.md) or try it in [Playground](https://font.subf.dev/en/playground)
 
 > [!note]
-> The web tool for visualized configuration and custom build is under development.
+> The web tool for custom build is under development.
 
 ## Naming FAQ
 
@@ -100,17 +129,6 @@ See in [document](./source/features/README.md)
 - Why there exists `-AutoHint` and `-unhinted` suffix?
   - for backward compatibility, I keep the original naming scheme. `-AutoHint` is only used for `TTF` format.
 
-## CDN
-
-### Maple Mono
-
-- [fontsource](https://fontsource.org/fonts/maple-mono)
-- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/443/)
-
-### Maple Mono CN
-
-- [The Chinese Web Fonts Plan (中文网字计划)](https://chinese-font.netlify.app/zh-cn/fonts/maple-mono-cn/MapleMono-CN-Regular)
-- [ZeoSeven Fonts](https://fonts.zeoseven.com/items/442/)
 
 ## Custom Build
 
@@ -246,6 +264,14 @@ Build Options:
 - [Font Viewer](https://tophix.com/font-tools/font-viewer)
 - [Monolisa](https://www.monolisa.dev/)
 - [Recursive](https://www.recursive.design/)
+
+## Sponser
+
+If this font is helpful to you, please feel free to buy me a coffee
+
+<a href="https://www.buymeacoffee.com/subframe753"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=subframe753&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00" /></a>
+
+or sponser me through [Afdian](https://afdian.com/a/subframe7536)
 
 ## License
 
